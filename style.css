@@ -1,0 +1,384 @@
+.navbar{
+    display: flex;
+    background-color: gray;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.navcolor{
+    color: black;
+    margin-right: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.navcolor:hover{
+    color: brown;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 140px;
+    height: 43px;
+    
+}
+.textcenter{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+}
+.h2line{
+    color: gray;
+    font-size: 30px;
+
+}
+.h3line{
+    text-align: center;
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    margin-right: 30px;
+}
+.c1{
+    width: 332.81px;
+    height: 318.25px;
+    margin-left: 100px;
+    
+    
+}
+.para1{
+    font-size: 18px;
+    padding-left: 60px;
+    width: 50%;
+    word-wrap: break-word;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+.flex1{
+    /*background-color: gray;*/
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}   
+.c2{
+    width: 570px;
+    height: 424px;
+    
+}
+.flex2{
+    background: black;
+    display: flex;
+    align-items: center;
+}
+.big{
+    padding-left: 25px;
+    color: white;
+    font-size: 40px;
+    font-style: "Roboto", sans-serif;
+    font-weight: 600;
+}
+.small{
+    padding-left: 30px;
+    color: gray;
+    font-size: 20px;
+    font-style: "Mulish", sans-serif;
+    font-weight: 300;
+
+}   
+
+/* About page css*/
+
+.headimg{
+    width: 100%;
+    height: 420px;
+}
+.sub{
+    font-size: 15px;
+    color: blue;
+    padding-left: 350px;
+    font-style: "Poppins", sans-serif;;
+}
+.main{
+    font-size: 40px;
+    padding-left: 350px;
+    font-style: "Poppins", sans-serif;
+    font-weight: bold;
+;
+}
+.founder{
+    width: 388.33px;
+    height: 372.72px;
+}
+.imgp{
+    font-size: 20px;
+    padding-left: 60px;
+    width: 50%;
+    word-wrap: break-word;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    font-family: "Josefin Sans", sans-serif;;
+}
+.ap2{
+    display: flex;
+    align-items: center;
+}
+.sub1{
+    font-size: 15px;
+    color: blue;
+    padding-left: 150px;
+    font-style: "Poppins", sans-serif;;
+}
+.main1{
+    font-size: 30px;
+    padding-left: 150px;
+    font-style: "Poppins", sans-serif;
+    font-weight: bold;
+}
+.gandhi2{
+    width: 270px;
+    height: 242.52px;
+    margin-left: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.imgp2{
+    font-size: 20px;
+    font-style: "Josefin Sans", sans-serif;;
+    padding-left: 60px;
+    width: 50%;
+    word-wrap: break-word;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+.ap4{
+    display: flex;
+    align-items: center;
+}
+.Foundationday{
+    width: 270px;
+    height: 242.52px;
+    margin-left: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+/* Academics css*/
+
+.text-overlay{
+    position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 40px;
+            text-shadow:
+            1px -1px 0 black,  
+            1px -1px 0 black,   
+            -1px 1px 0 black,   
+            1px 1px 0 black; 
+        
+            font-weight: bold;
+            text-align: center;
+            padding-top: 200px;
+}
+
+
+
+
+.ac2{
+    display: flex;
+
+    
+}
+.imga1{
+    font-size: 20px;
+    padding-left: px;
+    margin-left: 200px;
+    margin-top: 150px;
+    word-wrap: break-word;
+    font-family: "Josefin Sans", sans-serif;;
+}
+
+.Acadimics1{
+    width: 263.25px;
+    height: 417.84px;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.acdemics2{
+    width: 332.81px;
+    height: 336.17px;
+    
+}
+.ac3{
+  text-align: center;
+  margin-right: 400px;
+
+}
+.imga2{
+    font-size: 18px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 20px;
+    font-family: "Josefin Sans", sans-serif;;
+}
+.imgline{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+
+
+}
+.un{
+    width: 290px;
+    height: 383.61px;
+    
+    transition: transform 0.3s ease;
+    margin-top: 50px;
+    margin-bottom: 20px; 
+}
+.un:hover{
+    transform: scale(1.1); 
+}
+
+.po{
+    width: 290px;
+    height: 383.61px;
+    
+    transition: transform 0.3s ease;
+    margin-top: 50px;
+    margin-bottom: 20px; 
+}
+.po:hover{
+    transform: scale(1.1); 
+}
+
+.ph{
+    width: 290px;
+    height: 383.61px;
+    
+    transition: transform 0.3s ease;
+    margin-top: 50px;
+    margin-bottom: 20px; 
+}
+.ph:hover{
+    transform: scale(1.1); 
+}
+
+/* campuses css*/
+
+.vis-heading{
+    font-size: 40px;
+    margin-left: 100px;
+    font-style: "Poppins", sans-serif;
+    font-weight: bold;
+    
+}
+.vis-para{
+    font-size: 17px;
+    margin-left: 100px;
+    word-wrap: break-word;
+    font-family: "Josefin Sans", sans-serif;;
+    padding: 20px;
+}
+.vis-img{
+    width: 321.53px;
+    height: 290.14px;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.img-flex-1{
+    display: flex;
+
+}
+
+
+.vis-heading2{
+    font-size: 40px;
+    margin-left: 100px;
+    font-style: "Poppins", sans-serif;
+    font-weight: bold;
+    
+}
+.vis-para2{
+    font-size: 17px;
+    margin-left: 100px;
+    word-wrap: break-word;
+    font-family: "Josefin Sans", sans-serif;;
+    padding: 20px;
+}
+.vis-img2{
+    width: 321.53px;
+    height: 290.14px;
+    margin-left: 190px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.img-flex-2{
+    display: flex;
+
+}
+
+.vis-heading3{
+    font-size: 40px;
+    margin-left: 100px;
+    font-style: "Poppins", sans-serif;
+    font-weight: bold;
+    
+}
+.vis-para3{
+    font-size: 17px;
+    margin-left: 100px;
+    word-wrap: break-word;
+    font-family: "Josefin Sans", sans-serif;;
+    padding: 20px;
+}
+.vis-img3{
+    width: 321.53px;
+    height: 290.14px;
+    margin-left: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.img-flex-3{
+    display: flex;
+
+}
+
+.vis-heading4{
+    font-size: 40px;
+    margin-left: 100px;
+    font-style: "Poppins", sans-serif;
+    font-weight: bold;
+    
+}
+.vis-para4{
+    font-size: 17px;
+    margin-left: 100px;
+    word-wrap: break-word;
+    font-family: "Josefin Sans", sans-serif;;
+    padding: 20px;
+}
+.vis-img4{
+    width: 321.53px;
+    height: 290.14px;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.img-flex-4{
+    display: flex;
+
+}
+
